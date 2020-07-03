@@ -1,0 +1,140 @@
+/* Geral */
+* {margin: 0; padding: 0; font-size: 100%; border: none; outline: none; font-weight: 300; box-sizing: border-box;
+    font-family: 'Lato', sans-serif;}
+body {
+    background-color:white;
+    margin: auto;
+    width: 100%;
+}
+/*header */
+header {
+    width: 100%;
+    height: 10vh;
+    background-color:#0142A3;
+}
+h1#logo {
+    width: 80px;
+    height: 70px;
+    margin-left: 0mm;
+    margin-top: 0mm;
+    float: left;
+    background: url(img/logo1.png) center center/80px no-repeat;
+    font-size: 0cm;
+}
+nav#menu {
+    width: auto;
+    height: 100%; 
+    line-height: 56px; 
+    float: right;
+    position: static;
+    padding-top: 2mm;
+    box-sizing: border-box;
+}
+nav#menu ul{
+     float: left; text-align: center; list-style: none; border-bottom: solid 3px orange;
+     height: 45px;
+}
+nav#menu li {
+    padding: 0; float: left;
+}
+nav#menu a{
+    color: white; font-size: 1em; padding: 15px;text-decoration: none;
+}
+nav#menu a:hover{
+    color:#da6709;
+}
+/* Section */
+section {
+    float: left;
+    width: 100%;
+    height: 650px; 
+    padding: 0px 25px 25px 25px;
+}
+div.pergunta {
+    float: left;
+    width: 100%;
+    height: 320px; 
+    border-radius: 30px;
+    margin-top: 15px;
+
+    background: #F3AE0E;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 4px 4px -2px #989898;
+    -moz-box-shadow: 0 4px 4px -2px #989898;
+    -webkit-box-shadow: 0 4px 4px -2px #989898;
+
+    padding: 20px;
+}
+div.botoes {
+    float: left;
+    width: 100%;
+    height: 110px;
+    margin-top: 15px;
+    
+    border: 2px solid #A8A59E;
+    border-radius: 30px;
+
+    box-shadow: 0 4px 4px -2px #989898;
+    padding: 20px;
+    
+}
+button.btn1, button.btn2, button.btn3, button.btn4 { 
+    width: 155px;
+    height: 70px;
+    float: left;
+    margin-left: 180px;
+    margin-top: 0mm;
+    font-size: 15px;
+    text-align: left;
+    padding-left: 50px;
+    cursor: pointer;
+    
+}
+button.btn1 {
+    background: url(img/btna.png) center center/155px no-repeat;
+   
+}
+button.btn2 {
+    background: url(img/btnb.png) center center/155px no-repeat;
+   
+}
+button.btn3 {
+    background: url(img/btnc.png) center center/155px no-repeat;
+   
+}
+button.btn4 {
+    background: url(img/btnd.png) center center/155px no-repeat;
+   
+}
+div.informacoes{
+    float: left;
+    width: 100%;
+    height: 150px;
+    
+    margin-top: 20px;
+    background: #28b1f0;
+    border: 2px solid #A8A59E;
+    border-radius: 30px;
+
+    box-shadow: 0 4px 4px -2px #989898;
+    padding: 20px;
+}
+    
+  
+
+
+/* Footer*/
+footer {
+    float: left;
+    width: 100%;
+    height: 10vh;
+    background-color:#0142A3;
+    padding: 5px;
+}
+footer div {
+    
+}
+footer div h2 {
+    color: yellow;
+    text-align: center;
+}
